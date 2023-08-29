@@ -1,5 +1,46 @@
 # POO
 
+# Ejercicio Primeros Numeros
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Ingrese la cantidad de numeros que desea inegresar: ");
+        int n = scanner.nextInt();
+            int[] numeros = new int [n];
+            for(int i = 0; i < n; i++){
+                System.out.println("Ingrese el numero " + (i + 1) + ": ");
+                numeros [i] = scanner.nextInt();
+            }
+            System.out.println("Los primeros 5 numeros insertados son: ");
+            for (int i = 0; i < 5; i++){
+                System.out.println(numeros [i]);
+            }
+    }
+    }
+
+# Ejercicio Mayor y Menor y Suma
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in);
+        int mayor = 0, menor = 0, suma = 0, numero;
+        while (true){
+            System.out.println("Ingrese un numero: ");
+            numero = scanner.nextInt();
+            if(numero == 0){
+                break;
+            }
+            if(numero > mayor) {
+                mayor = numero;
+            }
+            if(numero < menor){
+                menor = numero;
+            }
+            suma += numero;
+        }
+        System.out.println("El numero mayor es: " + mayor);
+        System.out.println("El numero menor es: " + menor);
+        System.out.println("La suma de los numeros es: " + suma);
+    }
+    }
+
 # Ejercicio multiplos
 
         public static void main(String[] args) {
