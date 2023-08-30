@@ -1,5 +1,19 @@
 # POO
 
+# Ejercicio arreglos nombres y carreras
+     public static void main (String [] args){
+     Scanner lector = new Scanner (System.in);
+
+     String nombres [] = new String [20];
+     String carrera [] = new String [20];
+     int i, lim;
+     System.out.println ("Ingrese limite del arreglo");
+     lim = lector.nextInt();
+
+     for (i = 0; i < lim; i++){
+     System.out.println ("Nombre " + (i + 1) + ", " + "Carrera " + (i + 1) );
+     nombres[i]
+
 # Ejercicio Primeros Numeros
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
