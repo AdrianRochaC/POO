@@ -1,0 +1,233 @@
+#Funcionarios
+
+    String cargo;
+    String cabello;
+    String tipoCuerpo;
+    String dieta;
+    String sueño;
+    String ambienteLaboral;
+    String actividades;
+    
+    public static void main(String[] args) {
+        Funcionario funcionario1 = new Funcionario();
+        Funcionario funcionario2 = new Funcionario();
+        Funcionario funcionario3 = new Funcionario();
+        Funcionario funcionario4 = new Funcionario();
+        
+        funcionario1.cargo = "Docente";
+        funcionario1.cabello = "Rubio";
+        funcionario1.tipoCuerpo = "Mesomorfo";
+        funcionario1.dieta = "Tres comidad al dia (mañana, tarde, noche)";
+        funcionario1.sueño = "6 u 8 horas al dia";
+        funcionario1.ambienteLaboral = "Un ambiente laboral teniendo una interaccion mas real y directa con los estudiantes y con diferentes entes de la universidad";
+        funcionario1.actividades = "Enseñar, calificar, retroalimentar, brindar nuevos conocimientos";
+        
+        System.out.println("Funcionario 1");
+        System.out.println("");
+        System.out.println("Aributos");
+        System.out.println("El cargo es: " + funcionario1.cargo);
+        System.out.println("Su color de cabello es: " + funcionario1.cabello);
+        System.out.println("Su tipo de cuerpo es: " + funcionario1.tipoCuerpo);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("Su alimentacion esta basada en: " + funcionario1.dieta);
+        System.out.println("Su tiempo de descanso esta dado en: " + funcionario1.sueño);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Su ambiente laboras se puede situar como: " + funcionario1.ambienteLaboral);
+        System.out.println("Sus actividades según si cargo son: " + funcionario1.actividades);
+        
+        
+        funcionario2.cargo = "Rector";
+        funcionario2.cabello = "Blanco";
+        funcionario2.tipoCuerpo = "Mesomorfo";
+        funcionario2.dieta = "Tres comidad al dia (mañana, tarde, noche)";
+        funcionario2.sueño = "6 u 8 horas al dia";
+        funcionario2.ambienteLaboral = "Un ambiente laboral no con tanta interaccion con los estudiantes sino mas con los funcionarios presentes en la universidad";
+        funcionario2.actividades = "Dar un direccionamiento a todas las unidades, ser la mayor autoridad academica, dirigir y coordinar la gestion universitaria";
+        
+        System.out.println("Funcionario 2");
+        System.out.println("");
+        System.out.println("Aributos");
+        System.out.println("El cargo es: " + funcionario2.cargo);
+        System.out.println("Su color de cabello es: " + funcionario2.cabello);
+        System.out.println("Su tipo de cuerpo es: " + funcionario2.tipoCuerpo);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("Su alimentacion esta basada en: " + funcionario2.dieta);
+        System.out.println("Su tiempo de descanso esta dado en: " + funcionario2.sueño);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Su ambiente laboras se puede situar como: " + funcionario2.ambienteLaboral);
+        System.out.println("Sus actividades según si cargo son: " + funcionario2.actividades);
+        
+        funcionario3.cargo = "Decano de facultad de artes";
+        funcionario3.cabello = "Alopecia";
+        funcionario3.tipoCuerpo = "Mesomorfo";
+        funcionario3.dieta = "Tres comidad al dia (mañana, tarde, noche)";
+        funcionario3.sueño = "6 u 8 horas al dia";
+        funcionario3.ambienteLaboral = "Un ambiente laboral teniendo un equilibrio entre interaccion de estudiantes y diferentes entes de la univerversitaria";
+        funcionario3.actividades = "Liderar los proyectos, generar sinergia con las entidades externas, brindar el ambientge adecuado";
+        
+        System.out.println("Funcionario 3");
+        System.out.println("");
+        System.out.println("Aributos");
+        System.out.println("El cargo es: " + funcionario3.cargo);
+        System.out.println("Su color de cabello es: " + funcionario3.cabello);
+        System.out.println("Su tipo de cuerpo es: " + funcionario3.tipoCuerpo);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("Su alimentacion esta basada en: " + funcionario3.dieta);
+        System.out.println("Su tiempo de descanso esta dado en: " + funcionario3.sueño);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Su ambiente laboras se puede situar como: " + funcionario3.ambienteLaboral);
+        System.out.println("Sus actividades según si cargo son: " + funcionario3.actividades);
+        
+        funcionario4.cargo = "Secretaria";
+        funcionario4.cabello = "Negro";
+        funcionario4.tipoCuerpo = "Ectomorfo";
+        funcionario4.dieta = "Tres comidad al dia (mañana, tarde, noche)";
+        funcionario4.sueño = "6 u 8 horas al dia";
+        funcionario4.ambienteLaboral = "Un ambiente laboral con mayor interaccion con estudiantes, padres de familia y nuegos ingresados";
+        funcionario4.actividades = "Atencion a estudfiantes y docentes, adicion de los creditos, modificaciones y novedades academicas";
+        
+        System.out.println("Funcionario 4");
+        System.out.println("");
+        System.out.println("Aributos");
+        System.out.println("El cargo es: " + funcionario4.cargo);
+        System.out.println("Su color de cabello es: " + funcionario4.cabello);
+        System.out.println("Su tipo de cuerpo es: " + funcionario4.tipoCuerpo);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("Su alimentacion esta basada en: " + funcionario4.dieta);
+        System.out.println("Su tiempo de descanso esta dado en: " + funcionario4.sueño);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Su ambiente laboras se puede situar como: " + funcionario4.ambienteLaboral);
+        System.out.println("Sus actividades según si cargo son: " + funcionario4.actividades);
+    }
+}
+
+
+#FIGURA
+
+  String nombre; 
+  String lados; 
+  String angulos; 
+  String clasificacion; 
+  String area; 
+  String perimetro; 
+  String elementos; 
+  String propiedades;  
+  
+    public static void main(String[] args) {
+        Figura figura1 = new Figura();
+        Figura figura2 = new Figura();
+        Figura figura3 = new Figura();
+        Figura figura4 = new Figura();
+        
+        figura1.nombre = "Triangulo";
+        figura1.clasificacion = "Equilatero";
+        figura1.lados = "3 lados";
+        figura1.angulos = "Son de 60°";
+        figura1.area = "(base * altura) / 2";
+        figura1.perimetro = "(a*a*a) o (3 * a)";
+        figura1.elementos = " Tiene 3 vertices y 3 lados de igual medida al tratarse de un triángulo equilatero";
+        figura1.propiedades = "La suma de sus angulos internos es de 180° en total";
+        
+        System.out.println("Figura 1");
+        System.out.println("");
+        System.out.println("Atributos");
+        System.out.println("La figura es: " + figura1.nombre);
+        System.out.println("La clasificación de la figura es: " + figura1.clasificacion);
+        System.out.println("La figura tiene: " + figura1.lados);
+        System.out.println("Los angulos de la figura: " + figura1.angulos);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("La formula para hallar el area de la figura es: " + figura1.area);
+        System.out.println("La formula para hallar el perimetro de la feigura es: " + figura1.perimetro);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Los elementos importantes de la figura son que: " + figura1.elementos);
+        System.out.println("Las propiedades de la figura son que: " + figura1.propiedades);
+        
+        figura2.nombre = "Cuadrado";
+        figura2.clasificacion = "Paralelogramo";
+        figura2.lados = "4 lados";
+        figura2.angulos = "Son de 90°";
+        figura2.area = "(lado * lado)";
+        figura2.perimetro = "(lado + lado + lado + lado";
+        figura2.elementos = "Tiene 4 vertices y 4 lados de igual medida";
+        figura2.propiedades = "La suma de sus angulos internos es de 360° en total";
+        
+        System.out.println("");
+        System.out.println("Figura 2");
+        System.out.println("");
+        System.out.println("Atributos");
+        System.out.println("La figura es: " + figura2.nombre);
+        System.out.println("La clasificación de la figura es: " + figura2.clasificacion);
+        System.out.println("La figura tiene: " + figura2.lados);
+        System.out.println("Los angulos de la figura: " + figura2.angulos);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("La formula para hallar el area de la figura es: " + figura2.area);
+        System.out.println("La formula para hallar el perimetro de la feigura es: " + figura2.perimetro);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Los elementos importantes de la figura son que: " + figura2.elementos);
+        System.out.println("Las propiedades de la figura son que: " + figura2.propiedades);
+        
+        figura3.nombre = "Rectangulo";
+        figura3.clasificacion = "Paralelogramo";
+        figura3.lados = "4 lados";
+        figura3.angulos = "Son de 90°";
+        figura3.area = "(largo * ancho)";
+        figura3.perimetro = "((2*alto) + (2*ancho))";
+        figura3.elementos = "Tiene 4 vertices y 2 lados de igual medida y otros 2 lados con una medida diferente a los anteriores";
+        figura3.propiedades = "La suma de sus angulos internos es de 360° en total y tiene 2 lados de misma medida y otros 2 lados de igual medida";
+        
+        System.out.println("");
+        System.out.println("Figura 3");
+        System.out.println("");
+        System.out.println("Atributos");
+        System.out.println("La figura es: " + figura3.nombre);
+        System.out.println("La clasificación de la figura es: " + figura3.clasificacion);
+        System.out.println("La figura tiene: " + figura3.lados);
+        System.out.println("Los angulos de la figura: " + figura3.angulos);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("La formula para hallar el area de la figura es: " + figura3.area);
+        System.out.println("La formula para hallar el perimetro de la feigura es: " + figura3.perimetro);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Los elementos importantes de la figura son que: " + figura3.elementos);
+        System.out.println("Las propiedades de la figura son que: " + figura3.propiedades);
+        
+        figura4.nombre = "Circulo";
+        figura4.clasificacion = "Circulo";
+        figura4.lados = "No tiene lados";
+        figura4.angulos = "No tiene angulos";
+        figura4.area = "(π * r^2)";
+        figura4.perimetro = "(2 * π * r)";
+        figura4.elementos = "El circulo no tiene ningun tipo de lado y es totalmente cerrado si se habla de la circunferencia tiene lados infinitos";
+        figura4.propiedades = "Esta figura permite que sea dividido en 4 secciones la cual cada una tiene un valor de 90°, siendo usado en la trigonometria";
+        
+        System.out.println("");
+        System.out.println("Figura 4");
+        System.out.println("");
+        System.out.println("Atributos");
+        System.out.println("La figura es: " + figura4.nombre);
+        System.out.println("La clasificación de la figura es: " + figura4.clasificacion);
+        System.out.println("La figura tiene: " + figura4.lados);
+        System.out.println("Los angulos de la figura: " + figura3.angulos);
+        System.out.println("");
+        System.out.println("Metodos");
+        System.out.println("La formula para hallar el area de la figura es: " + figura4.area);
+        System.out.println("La formula para hallar el perimetro de la feigura es: " + figura4.perimetro);
+        System.out.println("");
+        System.out.println("Eventos");
+        System.out.println("Los elementos importantes de la figura son que: " + figura4.elementos);
+        System.out.println("Las propiedades de la figura son que: " + figura4.propiedades);
+    }
+}
