@@ -1,0 +1,42 @@
+#RECTANGULO
+
+import javax.swing.JOptionPane;
+
+public class Rectangulo {
+    int ancho;
+    int lado;
+    int area;
+    int perimetro;
+    
+    public void leerNumeros(){
+        lado = Integer.parseInt(JOptionPane.showInputDialog("Digite un numero: "));
+        ancho = Integer.parseInt(JOptionPane.showInputDialog("Digite un numero: "));
+    }
+    
+    public void areas(){
+        area = (lado * ancho);
+    }
+    
+    public void perimetros(){
+        perimetro = ((2*lado) + (2*ancho));
+    }
+    
+    public void mostrarDatos(){
+        System.out.println("El area es: " + area);
+        System.out.println("El perimetro es: " + perimetro);
+    }
+    
+}
+
+#MAIN
+
+public static void main(String[] args) {
+        Rectangulo rec = new Rectangulo();
+        
+        rec.leerNumeros();
+        rec.areas();
+        rec.perimetros();
+        rec.mostrarDatos();
+    }
+}
+
